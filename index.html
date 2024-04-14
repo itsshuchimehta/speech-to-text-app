@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech to Text App</title>
+    <link rel="icon" type="image/png" href="public/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div id="main"></div>
+    <script src="elm.js"></script>
+    <script src="js/interop.js" defer></script>
+    <script>
+
+        var app = Elm.Main.init({
+            node: document.getElementById('main')
+        });
+
+    </script>
+
+</body>
+
+</html>
